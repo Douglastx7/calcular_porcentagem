@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Taxa do Garçom</title>
+    
+  
+    
+</head>
+<body background="img/restaurante.jpg"> 
+   
+    <div id="cabecario">
+        
+        
+        <div class="cabecario2">
+            <h2>
+                  <img src="img/LOGO.png" width="100">
+                                                    Conta do Restaurante
+            </h2>
+        </div>
+    </div>
+
+
+
+
+    
+    
+    <div id="caixageral">
+        
+
+        <div class="valor">
+              <p>Valor do jantar: R$ <input type="number" placeholder="Digite o valor do jantar" id="valorJantar"></p>
+        </div>
+
+        <div class="taxa">
+             <p>Taxa em % do Garçom: <input type="number" placeholder="Digite a taxa do garçom" id="taxaGarcom"></p>
+        </div>
+        
+        <div class="button">
+              <input type="button" value="Calcular" onclick="calcular()">
+        </div>
+         
+        <div class="resultado">
+            <p id="jantar"></p>
+            <p id="taxa"></p>
+            <p id="resultado"></p>
+        </div>
+   
+    </div>
+    <script src="JS/Script.js"></script>
+</body>
+</html>

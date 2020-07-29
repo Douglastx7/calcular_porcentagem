@@ -1,0 +1,97 @@
+
+
+img { 
+   margin-bottom: -29px;
+   margin-left: -30px; 
+}
+
+
+.cabecario2 { 
+
+    text-align: center;
+    
+    font-variant: small-caps;
+   
+
+
+    color: rgb(112, 71, 23);
+    font-size: 25px;
+
+
+
+}
+
+#cabecario { 
+    text-align: center;
+    
+
+   background-color: rgb(231, 218, 195);
+
+    margin-left: 394px;
+    max-width: 520px;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+
+    
+    border-radius: 100px;
+
+}
+
+
+
+.patio { 
+
+    padding-top: 100px;
+}
+
+#caixageral { 
+
+    background-image: url("/img/cardapio.jpg");
+    
+    background-size: cover;
+    
+    
+    margin-left: 300px;
+    max-width: 300px;
+    
+    padding: 200px;
+
+    border-radius: 17%;
+    
+}
+
+#caixageral .valor { 
+    text-align: center;
+
+    color: rgb(94, 53, 26);
+    font-stretch: semi-expanded;
+    padding-block-end: 0%;
+    font-size: 23px;
+    padding-top: 100px;
+}
+
+#caixageral .taxa { 
+    text-align: center;
+
+    color:rgb(94, 53, 26);
+    font-size: 23px;
+}
+
+.button { 
+
+    
+    text-align: center;
+    cursor: pointer;
+    
+    
+} 
+
+
+#caixageral .resultado { 
+
+    color:rgb(94, 53, 26);
+
+    text-align: center;
+
+    font-size: 25px;
+}
